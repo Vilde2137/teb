@@ -1,10 +1,10 @@
 import math
 class Shape:
     def area(self):
-        raise NotImplementedError("Subclasses should implement this method.")
+        raise NotImplementedError(" ")
 
     def perimeter(self):
-        raise NotImplementedError("Subclasses should implement this method.")
+        raise NotImplementedError(" ")
 
 class Circle(Shape):
     def __init__(self, radius):
